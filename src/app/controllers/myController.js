@@ -1,7 +1,10 @@
+import {google} from 'googleapis';
+import axios from '../../services/gaxiosConfig'
+
 class MyController{
   async method(req, res){
-    res.json({message: 'Hello World'})
+    res.send('Heeloo')
   }
 }
 
-export default new MyController()
+export default new MyController();
