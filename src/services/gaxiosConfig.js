@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const api = Axios.create({
-  baseURL: 'http://localhost:3333',
+  baseURL: 'https://www.googleapis.com/admin/reports/v1',
 });
 
 export default api;
